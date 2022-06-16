@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style:none;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* 今日のタスク */
+
+.title{
+  color:rgba(0, 0, 0, 0.6);
+  margin-top: 50px;
+}
+
+
+/* 全体のレイアウト */
+
+.full-back-img{
+
+display: flex;
+flex-direction: row-reverse;
+}
+
+
+/* メイン */
+
+.main-content{
+  width: 100%;
+padding:  0 2.5%;
+height: 100vh;
+background-image: url("https://images.unsplash.com/photo-1505578066158-8015e4136f59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80");
+background-position: bottom;
+}
+
+/* 日付 */
+
+.date{
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+
+
+
+
+/* 追加フォーム */
+
+.form-Layout{
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.811);
+  border-radius: 20px;
+ height: 50px;
+  width: 70%;
+}
+
+.form-postion{
+   position: absolute;
+  top: 90%;
+}
+
+.form-Layout:hover{
+  opacity: 0.8;
+}
+
+.add-task{
+  margin: 0 10px;
+}
+
+.add-task-form{
+  border: none;
+ font-size: 20px;
+ width: 90%;
+ height: 48px;
+outline: none;
+background-color:rgba(0,0,0,0);
+}
+
+.plus:hover{
+  cursor: pointer;
+}
+
+.add-task-text{
+  position: absolute;
+  top: 75%;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+
+/* 新しいタスク */
+
+.new-texts{
+  width: 87%;
+  padding: 0 30px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.new-text{
+  margin-left: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.new-content{
+  display: flex;
+}
+
+.cheack,.important,.remove:hover{
+  cursor: pointer;
+}
+
+.cheack{
+  width: 30px;
+  height: 30px;
+}
+.cheack:hover{
+content: url("https://icooon-mono.com/i/icon_11453/icon_114531_64.png");
+}
+
+
+
+/* 完了済みのタスク */
+
+/* .already-completed-part{
+
+opacity: 0;
+
+}
+
+.already-completed-part.click{
+  opacity: 1;
+}
+
+
+
+.alreadys{
+  cursor: pointer;
+height: 30px;
+width: 230px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius:10px ;
+  padding:10px;
+display: flex;
+align-items: center;
+margin-bottom:10px ;
+}
+
+.alreadys:hover{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.count{
+  margin-left: 5px;
+}
+
+.already-tasks.click{
+opacity: 0;
+} */
+
+
+/* サイド */
+
+.side-content{
+  width: 15%;
+
+padding: 50px 10px 0 10px;
+background-color: rgba(144, 238, 144, 0.8);
+
+}
+
+.side-list{
+  padding: 10px;
+  color: white;
+}
+
+.side-link{
+  display: block;
+}
+.side-list:hover{
+ color: green;
+}
+
+
+/* サイドのリスト */
+
+
+.list-icon{
+  margin-right: 20px;
+}
+
+
+
